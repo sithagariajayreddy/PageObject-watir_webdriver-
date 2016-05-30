@@ -1,0 +1,16 @@
+web:
+  menards: https://menards.capitalonecards.com
+  helzberg: https://helzberg.capitalonecards.com
+  justice: https://justice.capitalonecards.com
+  jordans: https://jordans.capitalonecards.com
+  lordandtaylor: https://lordandtaylor.capitalonecards.com
+
+in_store_private:
+  menards: https://menards.capitalonecards.com/instore
+  justice: https://justice.capitalonecards.com/instore
+  jordans: https://jordans.capitalonecards.com/instore
+  lordandtaylor:  https://lordandtaylor.capitalonecards.com/instore
+
+in_store_public_ipad :
+  jordans: https://jordans.capitalonecards.com/#/splash
+  saks: https://saks.capitalonecards.com/#/splash
