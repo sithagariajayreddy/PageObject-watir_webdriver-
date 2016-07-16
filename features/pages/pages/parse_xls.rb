@@ -1,7 +1,7 @@
 class ParseXls
   def initialize
-    @work_sheet = Spreadsheet.open(File.join(File.absolute_path('../../..', File.dirname(__FILE__)),"resource","Menard_Expected_Content.xls"))
-    # @work_sheet = Spreadsheet.open(File.join(File.absolute_path('../../..', File.dirname(__FILE__)),"resource","Menard_Expected_Content.xls"))
+    @work_sheet = Spreadsheet.open(File.join(File.absolute_path('../../..', File.dirname(__FILE__)),"resource","Expected_Content.xls"))
+    # @work_sheet = Spreadsheet.open(File.join(File.absolute_path('../../..', File.dirname(__FILE__)),"resource","Expected_Content.xls"))
   end
 
   def get_sheet_by_name(sheet_name)
