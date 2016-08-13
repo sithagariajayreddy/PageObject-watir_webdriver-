@@ -1,8 +1,8 @@
 @homepage_page1
-Feature: Menard Homepage
+Feature: xxx Homepage
   As a user
   I want to
-  Register to menard's big
+  Register to xxx's big
 
 #  @watir
 #  Scenario: verify the label on registration page
