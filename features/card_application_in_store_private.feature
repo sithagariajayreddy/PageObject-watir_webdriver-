@@ -7,7 +7,7 @@ Feature: In store private Card information
 
 #  @watir
 #  Scenario: in store private Submit the card information
-#    Given I am on menards in store private home page
+#    Given I am on xxx in store private home page
 #    When I provide the in store private customer information
 #    And I agree to term and conditions
 #    Then I should see the confirmation pending message
@@ -16,22 +16,22 @@ Feature: In store private Card information
   ##Pre Decision Short AOD
   @watir
   Scenario: In store private verify the Pre Decision Short AOD
-    Given I am on menards in store private home page
+    Given I am on xxx in store private home page
     When In Store Pvt I provide first name as Test ssn 999999999 and address as Approved
     And I select continue button
-    Then I should see the menards in store private correct short Rate & Fee Information
+    Then I should see the xxx in store private correct short Rate & Fee Information
 
   @watir
   Scenario: In store private verify the Electronic Disclosure Consent
-    Given I am on menards in store private home page
+    Given I am on xxx in store private home page
     When In Store Pvt I provide first name as Test ssn 999999999 and address as Approved
     And I select continue button
-    Then I should see the menards in store private correct Electronic Disclosure Consent
+    Then I should see the xxx in store private correct Electronic Disclosure Consent
     And I agree to term and conditions
 
   @watir
   Scenario: In store private Verify the processing page
-    Given I am on menards in store private home page
+    Given I am on xxx in store private home page
     When In Store Pvt I provide first name as Test ssn 999999999 and address as Approved
     And I select continue button
     And I agree to term and conditions
@@ -39,7 +39,7 @@ Feature: In store private Card information
 
   @watir
   Scenario Outline: In store private Verify Message Submit the card information
-    Given I am on menards in store private home page
+    Given I am on xxx in store private home page
     When In Store Pvt I provide first name as Test ssn 999999999 and address as <addressLine1>
     And I select continue button
     And I agree to term and conditions
